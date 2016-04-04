@@ -1,0 +1,344 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+body
+{
+	height: 960px;
+	width: 1024px;
+}
+
+.index
+{
+	background-image: url("images/home.jpg");
+	background-size:cover;
+	height: 960px;
+}
+
+.other1
+{	
+	background-image: url("images/top1.jpg");
+	background-size:cover;
+	height: 960px;
+}
+
+.other2
+{	
+	background-image: url("images/top2.jpg");
+	background-size:cover;
+	height: 960px;
+}
+
+.other3
+{	
+	background-image: url("images/top3.jpg");
+	background-size:cover;
+	height: 960px;
+}
+
+
+/* nav */
+
+.index .nav
+{
+	height: 60px;
+	position: relative;
+	top: 460px;
+	font-size: 24px;
+}
+
+.other1 .nav
+{
+	height: 60px;
+	position: absolute;
+	top: 280px;
+	font-size: 24px;
+	width: 1024px;
+}
+
+.other2 .nav
+{
+	height: 60px;
+	position: absolute;
+	top: 280px;
+	font-size: 24px;
+	width: 1024px;
+}
+
+.other3 .nav
+{
+	height: 60px;
+	position: absolute;
+	top: 280px;
+	font-size: 24px;
+	width: 1024px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li a
+{
+	display: block;
+	color: black;
+	text-decoration: none;
+	float: left;	
+	font-family: Verdana;
+}
+
+li a:hover
+{
+	color: orange;	
+}
+
+#about
+{
+	position: absolute;
+	left: 55px;	
+}
+
+#photo
+{
+	position: absolute;
+	left: 290px;	
+}
+
+#video
+{
+	position: absolute;
+	left: 595px;	
+}
+
+#web
+{
+	position: absolute;
+	left: 845px;	
+}
+
+/* footer */
+
+footer
+{
+	position: fixed;
+	bottom: 0px;
+	height: 50px;
+	background-color:#C4C4C4;
+	padding: 0px 0px 0px 730px
+}
+
+.icon
+{
+	height: 40px;
+	width: 40px;	
+	display: inline-block;	
+	vertical-align: middle;
+}
+
+footer h3
+{
+	display: inline-block;
+	vertical-align:middle;		
+}
+
+/* about */
+
+.profile
+{
+	position: relative;
+	top: 70px;
+	height: 520px;
+	width: 520px;
+}
+
+.profilepic
+{
+	height:	492px;
+	width: 448px;
+	left: 39px;
+	position: absolute;
+	top: 50px;
+	border: 5px solid #3F3F3F;
+}
+
+.info
+{
+	position: absolute;
+	left: 540px;
+	top: 440px; 
+	height: 480px; 
+	width: 443px;
+	background: radial-gradient(white, #EC7630);
+	border: 5px solid #3F3F3F;
+	color: black;
+	padding: 3px;
+}
+
+.info h2
+{
+	text-align: center;
+	font-size: 40px;	
+}
+
+.info p
+{
+	font-size: 25px;	
+	padding: 0px 0px 0px 8px;
+}
+
+.icon1
+{
+	height: 100px;
+	width: 100px;
+	margin: 0px 0px 0px 150px;	
+}
+
+/* Photography */
+
+.photoleft 
+{
+	width: 276px;
+	height: 505px;
+	left: 42px;
+	top: 124px;
+	position: relative;	
+	background-color:#3F3F3F;
+}
+
+.photoright
+{
+	width: 285px;
+	height: 505px;
+	padding: 0px;
+	margin: 0px;
+	left: 697px;
+	position: relative;	
+	top: -380px;	
+	background-color:#3F3F3F;
+	
+}
+
+.photoleft img
+{
+	width: 140px;
+	height: 116px;
+	margin: 3px;
+	position:relative;
+	left: 60px;
+}
+
+.photoright img 
+{
+	width: 160px;
+	height: 116px;
+	padding: 0px;
+	margin: 3px;	
+	position: relative;
+	left: 58px;
+	
+}
+
+.phototext
+{
+	background: radial-gradient(white, #EC7630);
+	height: 485px;
+	width: 295px;
+	left: 368px;
+	top: 440px;
+	position: absolute; 
+	border: 5px solid #3F3F3F;	
+}
+
+.phototext h2
+{
+	text-align: center;
+	font-size: 35px;
+}
+
+.phototext p
+{
+	font-size: 20px;
+}
+
+/* Video */
+
+.video
+{
+	height: 493px;
+	width: 449px;
+	position: absolute;
+	top: 440px;
+	left: 540px;
+	background-color:#3F3F3F;
+}
+
+.video iframe
+{
+	height: 230px;
+	width: 435px;	
+	margin: 5px;
+}
+
+.videotext
+{
+	height: 480px;
+	width: 451px;
+	position: absolute;
+	top: 440px;
+	left: 48px;	
+	background: radial-gradient(white, #EC7630);
+	color: black;
+	padding: 3px;
+	border: 5px solid #3F3F3F;
+}
+
+.videotext h2
+{
+	text-align: center;
+	font-size: 35px;	
+}
+
+.videotext p
+{
+	font-size: 20.5px;	
+	padding: 0px 0px 0px 8px;
+}
+
+/* design */
+
+.design
+{
+	background-color: #3F3F3F;
+	height: 495px;
+	width: 940px; 
+	position: absolute;
+	top: 440px;
+	left: 50px;	
+}
+
+.design img
+{
+	height: 395px;
+	width: 294px;
+	margin: 8px;	
+	vertical-align: bottom;
+}
+
+.design h2
+{
+	text-align: center;
+	font-size: 30px	
+}
+
+
+
+
+
+
+
+
