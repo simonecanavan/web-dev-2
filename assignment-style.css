@@ -26,23 +26,9 @@ body
 	height: 960px;
 }
 
-.other1
+.other
 {	
-	background-image: url("images/top1.jpg");
-	background-size:cover;
-	height: 960px;
-}
-
-.other2
-{	
-	background-image: url("images/top2.jpg");
-	background-size:cover;
-	height: 960px;
-}
-
-.other3
-{	
-	background-image: url("images/top3.jpg");
+	background-image: url("images/top.jpg");
 	background-size:cover;
 	height: 960px;
 }
@@ -54,37 +40,19 @@ body
 {
 	height: 60px;
 	position: absolute;
-	top: 450px;
+	top: 280px;
 	font-size: 24px;
 	z-index: 2;
 	width: 100%;
 }
 
-.other1 .nav
+.other .nav
 {
 	height: 60px;
 	position: absolute;
 	top: 280px;
 	font-size: 24px;
-	width: 1024px;
-}
-
-.other2 .nav
-{
-	height: 60px;
-	position: absolute;
-	top: 280px;
-	font-size: 24px;
-	width: 1024px;
-}
-
-.other3 .nav
-{
-	height: 60px;
-	position: absolute;
-	top: 280px;
-	font-size: 24px;
-	width: 1024px;
+	width: 100%;
 }
 
 ul
